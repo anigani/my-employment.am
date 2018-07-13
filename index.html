@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ԶԲԱՂՎԱԾՈՒԹՅԱՆ ՊԵՏԱԿԱՆ ԾԱՌԱՅՈՒԹՅՈՒՆ ԳՈՐԾԱԿԱԼՈՒԹՅՈՒՆ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/functions.js"></script>
+
+    <script type="text/javascript" src="js/accordion.js"></script>
+    <!--slide-->
+    <link rel="stylesheet" href="css/slide.css">
+    <script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <!--banner-->
+    <link rel="stylesheet" type="text/css" href="css/simpletextrotator.css"/>
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+</head>
+<body>
+<header class="container">
+    <div class="row">
+        <!--icons-->
+        <div id="icons" class="col-md-6">
+            <a href="index.html" title="Home">
+                <img src="images/ico_home.png">
+            </a>
+            <a href="feedback.html" title="Feedback">
+                <img src="images/ico_mail.png">
+            </a>
+            <a href="map.html" title="SiteMap">
+                <img src="images/ico_sitemap.png">
+            </a>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-7 col-md-offset-2">
+                    <div id="search-form">
+                        <form class="form-container" action="">
+                            <input class="search-field" value="Type search text here..." type="text" title="search box">
+                            <div class="submit-container">
+                                <input value="" class="submit" type="submit">
+                            </div>
+                        </form>
+                        <div style="opacity: 0; display: none;" class="popup">
+                            <p>Please fill out this field.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Armenian
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="langsMenu" class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                            <li><a href="#"><img src="images/flag-arm.jpg"><span>Armenian</span></a></li>
+                            <li><a href="#"><img src="images/flag-rus.jpg"><span>Russian</span></a></li>
+                            <li><a href="#"><img src="images/flag-eng.jpg"><span>English</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row header_bg">
+        <div class="col-sm-2">
+            <img src="images/arm_gerb.png" alt="Coat of Arms" title="Coat of Arms">
+        </div>
+        <div class="col-sm-2 col-md-push-8">
+            <img src="images/employment_logo.png" alt="Employment Logo" title="Employment Logo">
+        </div>
+        <div class="col-sm-8 col-md-pull-2">
+            <img src="images/title_1.png" class="marginTop" alt="State Employment Agency"
+                 title="State Employment Agency">
+        </div>
+    </div>
+</header>
+
+
+<nav class="container">
+    <div class="row navbar" id="custom-nav" role="navigation">
+        <div class="col-md-12">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">Գլխավոր էջ</a></li>
+                <li class=""><a href="structure.html">Կառուցվածք</a></li>
+                <li class=""><a href="legislation.html">Օրենսդրություն</a></li>
+                <li class=""><a href="faq.html">Հարց - Պատասխան</a></li>
+                <li class=""><a href="news.html">Լուրեր</a></li>
+                <li class=""><a href="links.html">Հղումներ</a></li>
+                <li class=""><a href="map.html">Կայքի քարտեզը</a></li>
+                <li class=""><a href="feedback.html">Կապը մեզ հետ</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Slide-->
+    <div class="row">
+        <div class="col-md-12">
+            <div id="jssor_1"
+                 style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1200px; height: 400px; overflow: hidden; visibility: hidden;">
+                <!-- Loading Screen -->
+                <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+                    <div style="position:absolute;display:block;background:url('images/slide/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+                </div>
+                <div data-u="slides"
+                     style="cursor: default; position: relative; top: 0px; left: 0px; width: 1200px; height: 400px; overflow: hidden;">
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="images/slide/01.jpg"/>
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="images/slide/02.jpg"/>
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="images/slide/03.jpg"/>
+                    </div>
+                    <div data-p="112.50" style="display: none;">
+                        <img data-u="image" src="images/slide/04.jpg"/>
+                    </div>
+
+                </div>
+                <!-- Bullet Navigator -->
+                <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
+                    <div data-u="prototype" style="width:12px;height:12px;"></div>
+                </div>
+                <!-- Arrow Navigator -->
+                <span data-u="arrowleft" class="jssora05l" style="top:0px;left:8px;width:40px;height:40px;"
+                      data-autocenter="2"></span>
+                <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;"
+                      data-autocenter="2"></span>
+            </div>
+
+            <!-- #endregion Jssor Slider End -->
+        </div>
+    </div>
+</nav>
+
+<div class="container content">
+    <div class="row">
+        <!--Left column-->
+        <div class="col-md-3">
+            <aside>
+                <!--Accordion-->
+                <div class="accordion">
+                    <h1>Մեր մասին</h1>
+                    <div>
+                        <h2>Հրապարակումներ</h2>
+                        <div>
+                            <h3><a href="#">Մամուլի հրապարակումներ</a></h3>
+                            <h3><a href="#">Տեղեկատվական նյութեր</a></h3>
+                        </div>
+                        <h2><a href="#">Հայտարարություններ</a></h2>
+                        <h2><a href="#">Հաշվետվություններ</a></h2>
+                    </div>
+
+                    <h1>Աշխատանք փնտրողներ</h1>
+                    <div>
+                        <h2><a href="#">Աշխատանք փնտրողներ</a></h2>
+                        <h2><a href="#">Աշխատանք փնտրողների հաշվառումը</a></h2>
+                        <h2><a href="#">Զբաղվածության ծրագրերը</a></h2>
+                        <h2><a href="#">Աշխատանք փնտրող անձանց երաշխիքները</a></h2>
+                        <h2><a href="#">Աշխատաշուկայում անմրցունակ անձինք</a></h2>
+                        <h2><a href="#">Աշխատանք փնտրողների ուղեցույց</a></h2>
+                    </div>
+
+                    <h1>Գործատուներ</h1>
+                    <div>
+                        <h2><a href="#">Գործատուներ</a></h2>
+                        <h2><a href="#">Աջակցություն աշխատուժի պահանջարկի լրացմանը</a></h2>
+                        <h2><a href="#">Աշխատուժի առաջարկ գործատուին</a></h2>
+                    </div>
+
+                    <h1>Ծրագրեր</h1>
+                    <div>
+                        <h2><a href="#">Սեզոնային զբաղվածության խթանման միջոցով գյուղացիական
+                            տնտեսությանն աջակցության տրամադրում</a></h2>
+                        <h2><a href="#">Աշխատաշուկայում անմրցունակ անձանց փոքր ձեռնարկատիրական
+                            գործունեության, ինչպես նաև անասնապահությամբ զբաղվելու համար աջակցության տրամադրում</a></h2>
+                        <h2><a href="#">Աշխատանքի տեղավորման ոչ պետական կազմակերպությունների
+                            կողմից մատուցվող ծառայոթյուններից օգտվելու համար աջակցության տրամադրում</a></h2>
+                        <h2><a href="#">Աշխատաշուկայում անմրցունակ անձանց գործատուներին այցելության համար դրամական
+                            օգնության
+                            տրամադրում</a></h2>
+
+                    </div>
+
+                    <h1> Աշխատաշուկա</h1>
+                    <div>
+                        <h2>
+                            <a href="#">
+                                Աշխատաշուկա
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="#">
+                                բաղվածության պետական ծրագրի կատարողականը
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="#">
+                                Երիտասարդների ընդգրկվածությունը զբաղվածության ծրագրերում
+                            </a>
+                        </h2>
+                        <h2>
+                            <a href="#">
+                                Զբաղվածություն
+                            </a>
+                        </h2>
+                    </div>
+
+                    <h1>Թափուր աշխատատեղեր</h1>
+                    <div>
+                        <h2><a href="#">Քաղաքացիական ծառայության թափուր պաշտոններ</a></h2>
+                        <h2><a href="#">Թափուր աշխատատեղեր</a></h2>
+                        <h2><a href="#">Համայնքային ծառայության թափուր աշխատատեղեր</a></h2>
+                    </div>
+
+                    <h1>Աշխատանքային միգրացիա</h1>
+                    <div>
+                        <h2><a href="#">Աշխատանքային միգրացիա</a></h2>
+                        <h2><a href="#">Միգրացիոն ռեսուրս կենտրոն</a></h2>
+                        <h2><a href="#">Մեթոդական նյութեր</a></h2>
+                        <h2><a href="#">Հաճախ տրվող հարցեր</a></h2>
+                    </div>
+
+                    <h1><a href="#">Հաշվետվություններ</a></h1>
+                    <div></div>
+                    <h1><a href="#">Հայտարարություններ</a></h1>
+                    <div></div>
+
+                    <h1>Հրապարակումներ</h1>
+                    <div>
+                        <h2><a href="#">Մամուլի հրապարակումներ</a></h2>
+                        <h2><a href="#">Տեղեկատվական նյութեր</a></h2>
+                    </div>
+
+                    <h1><a href="#">Տեսանյութեր</a></h1>
+                    <div></div>
+
+                    <h1><a href="#">Էլեկտրոնային դասընթաց</a></h1>
+                    <div></div>
+
+                    <h1><a href="#">Հաջողված պատմություններ</a></h1>
+                    <div></div>
+                </div>
+
+                <!--Banner-->
+                <div id="banner">
+                    <h1 id="banner1" class="banner">
+                        <span class="rotate">Առաջարկվում են, վերապատրաստված, մասնագետներ</span>
+                    </h1>
+                    <h1 id="banner2" class="banner"><span class="rotate">Շտապ, պահանջվում են, մասնագետներ</span></h1>
+                    <h1 id="banner3" class="banner"><span class="rotate">Աշխատանքի, տոնավաճառներ, մարզերում</span></h1>
+                </div>
+            </aside>
+        </div>
+
+        <!--Middle column-->
+        <article class="col-md-6">
+
+            <div class="text1">Բարի Գալուստ</div>
+            <div class="text2">ԶԲԱՂՎԱԾՈՒԹՅԱՆ ՊԵՏԱԿԱՆ ԳՈՐԾԱԿԱԼՈՒԹՅԱՆ ՊԱՇՏՈՆԱԿԱՆ ԿԱՅՔ</div>
+            <p>Գործակալությունը պատրաստ է աջակցել աշխատանք փնտրողներին` աշխատանքի տեղավորման հարցում, գործատուներին`
+                որակյալ
+                մասնագետներ ձեռք բերելու հարցում:<br>Այցելե'ք զբաղվածության տարածքային կենտրոններ, որտեղ Ձեզ կմատուցվեն
+                հետևյալ ծառայությունները:</p>
+            <div class="h20">&nbsp;</div>
+            <div class="table-responsive">
+                <table class="table table-bordered" border="0" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr class="job_title_bg">
+                        <td class="text7" width="50%">աշխատանք փնտրողներին</td>
+                        <td class="text7" width="50%">գործատուներին</td>
+                    </tr>
+                    <tr class="job_content_bg">
+                        <td>
+                            <p class="bold mrgb10">Խորհրդատվություն և տեղեկատվություն</p>
+                            <ul class="goldarrow_job" style="text-align: left;">
+                                <li>թափուր աշխատատեղերի վերաբերյալ</li>
+                                <li>զբաղվածության ծրագրերի վերաբերյալ</li>
+                                <li>կիրականացվի աշխատանքի միջնորդություն<br><br><br><a
+                                        href="#"
+                                        target="_blank"><strong>ՈՒՂԵՑՈՒՅՑ</strong>&nbsp;</a></li>
+                            </ul>
+                        </td>
+                        <td>
+                            <p class="bold mrgb10">Տեղեկատվություն</p>
+                            <ul class="goldarrow_job">
+                                <li>աշխատաշուկայի վիճակագրության և կանխատեսումների վերաբերյալ</li>
+                                <li>զբաղվածության ծրագրերի և օրենսդրության վերաբերյալ</li>
+                                <li>կառաջարկվի իրենց պահանջարկին համապատասխան որակյալ աշխատուժ<br><br><a
+                                        href="#"
+                                        target="_blank"><strong>ՈՒՂԵՑՈՒՅՑ</strong>&nbsp;
+                                </a>&nbsp;</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><span class="bold italic">Ուշադրություն:</span><br>Զբաղվածության պետական գործակալության կողմից մատուցվող
+                բոլոր ծառայություններն անվճար են:</p>
+            <div class="h20">&nbsp;</div>
+
+            <!--News Block-->
+            <div class="text8">Լուրեր</div>
+
+            <p class="news_date">22.07.2016</p>
+            <p class="news_title">Աշխատանքի տոնավաճառ Դիլիջանում</p>
+            <p class="news_content"></p>
+            <p><span>2016թ. հուլիսի 26-ին, Տավուշի մարզի Դիլիջան քաղաքում, ՀՀ ԱՍՀՆ Զբաղվածության պետական գործակալության նախաձեռնությամբ պետական բյուջեի ֆինանասվորմամբ կազմակերպվում է աշխատանքի տոնավաճառ:</span>
+            </p>
+            <p></p>
+            <a href="#" class="news_btn">Տես ավելին</a>
+            <div class="clear"></div>
+
+            <div class="news_line"></div>
+            <p class="news_date">21.07.2016</p>
+            <p class="news_title">Աշխատանքի տոնավաճառ Վանաձորում</p>
+            <p class="news_content"></p>
+            <p>2016թ. հուլիսի 22-ին, Լոռու մարզի Վանաձոր քաղաքում, ՀՀ ԱՍՀՆ Զբաղվածության պետական գործակալության
+                նախաձեռնությամբ, պետական բյուջեի ֆինանասվորմամբ, կազմակերպվում է աշխատանքի տոնավաճառ:</p>
+            <p></p>
+            <a href="#" class="news_btn">Տես ավելին</a>
+            <div class="clear"></div>
+
+            <div class="news_line"></div>
+            <p class="news_date">12.07.2016</p>
+            <p class="news_title">Վարձատրվող հասարակական աշխատանքների կազմակերպման միջոցով գործազուրկների ժամանակավոր
+                զբաղվածության ապահովման ծրագրի իրականացման ընթացքի վերաբերյալ </p>
+            <p class="news_content"></p>
+            <p>Հանրապետության մարզերում շարունակվում է «Վարձատրվող հասարակական աշխատանքների կազմակերպման միջոցով
+                գործազուրկների ժամանակավոր զբաղվածության ապահովման» ծրագրի իրականացումը</p>
+            <p></p>
+            <a href="#" class="news_btn">Տես ավելին</a>
+            <div class="clear"></div>
+
+            <div class="news_line"></div>
+            <div class="h30"></div>
+
+        </article>
+
+        <!--Right column-->
+        <div class="col-md-3">
+            <div class="form_title">Աշխատանք փնտրողներր և գործատուների շտեմարան</div>
+
+            <div class="form_content">
+
+                <form role="form" method="post">
+                    <div class="input-group">
+                        <div class="input-group-addon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Էլ - փոստ</div>
+                        <input class="form-control" placeholder="Enter email" name="mail" type="email">
+                    </div>
+                    <div class="h10"></div>
+                    <div class="input-group">
+                        <div class="input-group-addon">Գաղտնաբառ</div>
+                        <input class="form-control" placeholder="Password" name="pass" type="password">
+                    </div>
+                    <div class="h10"></div>
+                    <div align="center">
+                        <button type="submit" class="submit_btn enter_arm" name="sub_form" value="">Մուտք</button>
+                    </div>
+                </form>
+
+                <div class="h20"></div>
+
+                <div class="submit_content">
+                    <ul class="goldarrow_submit">
+                        <li><a href="#">Գրանցվել</a></li>
+                        <li><a href="#">Մոռացել եք ծածկագիրը </a></li>
+                    </ul>
+                </div>
+
+                <div class="h20"></div>
+                <div class="info"><img src="images/ico_information.png" alt="Information" title="Information"
+                                       border="0">
+                </div>
+                <p>
+                    Պարունակում է աշխատանք փնտրողների դիմումներ և ռեզյումեներ, ինչպես նաև Հայաստանում գործող
+                    գործատուների
+                    կողմից տեղադրած թափուր աշխատատեղերի հայտարարություններ:<br><br>Օգնում է հայ միգրանտների, սփյուռքի և
+                    վերադարձողների ռեզյումեները համադրել Հայաստանի աշխատաշուկայում առկա թափուր աշխատատեղերի հետ: </p>
+
+            </div>
+
+            <div class="imageBanner">
+                <a href="#">
+                    <img src="images/all.jpg" alt="Map" title="Map" border="0">
+                </a>
+
+                <a href="#">
+                    <img src="images/banner_arm61.gif" title="Banner" border="0"><br>
+                </a>
+
+                <a href="http://cis.minsk.by/page.php?id=15010">
+                    <img src="images/banner_arm62.bmp" title="Banner" border="0"><br>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container">
+    <div class="row">
+        <div class="col-md-3 whitearrow">
+            <div class="text4">Օգտակար Հղումներ</div>
+            <ul class="">
+                <li><a href="#">Թափուր աշխատատեղեր</a></li>
+                <li><a href="#">Ծրագրեր</a></li>
+                <li><a href="#">Աշխատաշուկա</a></li>
+                <li><a href="#">Հարց - Պատասխան</a></li>
+                <li><a href="#">Հղումներ</a></li>
+                <li><a href="#">Կապը մեզ հետ</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <div class="text4">Մեր Գործընկերները</div>
+            <div class="partners">
+                <div>
+                    <a href="http://www.arbetsformedlingen.se">
+                        <img src="images/partner1.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://www.ilo.org">
+                        <img src="images/partner2.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://www.unhcr.org/cgi-bin/texis/vtx/home">
+                        <img src="images/partner3.png">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://www.europa.eu">
+                        <img src="images/partner4.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="text4">Հետեվեք մեզ</div>
+            <div class="social">
+                <div>
+                    <img src="images/ico_facebook.png">
+                    <a href="http://www.facebook.com/pages/%D4%B6%D5%A2%D5%A1%D5%B2%D5%BE%D5%A1%D5%AE%D5%B8%D6%82%D5%A9%D5%B5%D5%A1%D5%B6-%D5%BA%D5%A5%D5%BF%D5%A1%D5%AF%D5%A1%D5%B6-%D5%AE%D5%A1%D5%BC%D5%A1%D5%B5%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6/559863640711824">Facebook
+                    </a>
+                </div>
+                <div>
+                    <img src="images/ico_twitter.png">
+                    <a href="https://twitter.com/sesatweets">Twitter </a>
+                </div>
+                <div>
+                    <img src="images/ico_youtube.png">
+                    <a href="http://www.youtube.com/user/armeniaemployment" class="youtube">YouTube</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text4">Հետադարձ կապ</div>
+            <div class="text5">0069, ՀՀ ք. Երևան, Կ. Ուլնեցու 68</div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div>Հեռ.</div>
+                    <div>էլ.փոստ`</div>
+                </div>
+                <div class="col-md-9">
+                    <div>(+374 10) 23-40-37</div>
+                    <div><a href="mailto:info@employment.am" class="link_info">info@employment.am</a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row copyright">
+        &copy; 2016թ. Ձևավորումը Մայքրոսոֆթ ինովացիոն կենտրոնի
+    </div>
+</footer>
+
+</body>
+</html>

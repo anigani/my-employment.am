@@ -1,0 +1,94 @@
+.slide img {
+    width: 100%;
+}
+
+article p {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Arian AMU", "Arial AMU", "GHEA Grapalat", "Sylfaen", sans-serif !important;
+    text-align: left;
+}
+
+article strong {
+    font-size: 18px;
+}
+
+.col-md-9 > div {
+    margin-left: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.structure2 {
+    border-bottom: 1px dashed #f49822;
+    font-size: 8pt;
+    margin: 5px 0 0 10px;
+}
+
+.structure3 {
+    border-bottom: 1px dashed #f49822;
+    font-size: 8pt;
+    margin: 15px 0 0 30px;
+}
+
+.str8 {
+    font-size: 16px;
+}
+
+.str8b {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.MsoNormal span {
+    color: #f49822 !important;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.MsoNormal span strong {
+    color: #f49822;
+}
+
+.goldarrow li {
+    color: #7c7c7c;
+    font-size: 1em;
+    line-height: 20px;
+    list-style-image: url(../images/ico_goldarrow.png);
+}
+
+a.map_a:link, a.map_a:visited, a.map_a:active {
+    color: #f49822;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 2px;
+    outline: medium none;
+    text-decoration: none;
+}
+
+a.map_a:hover {
+    font-size: 12px;
+    color: #545454;
+    text-decoration: none;
+}
+
+a.map_a1:link, a.map_a1:visited, a.map_a1:active {
+    color: #777b84;
+    display: block;
+    font-size: 12px;
+    margin: 2px;
+    outline: medium none;
+    text-decoration: underline;
+}
+
+a.map_a1:hover {
+    color: #777b84;
+    display: block;
+    font-size: 12px;
+    margin: 2px;
+    outline: medium none;
+    text-decoration: none;
+}
